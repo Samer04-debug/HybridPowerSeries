@@ -128,7 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HybridPowerSeries.cpp" />
+    <ClCompile Include="computeYZ.cpp" />
+    <ClCompile Include="divideAndConquer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="solveNonlinear.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="matpotlib.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
